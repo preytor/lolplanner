@@ -1,0 +1,1653 @@
+//Agricultural Areas
+{
+	id: 1
+	name: field 
+	textureName: field
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+};{
+	id: 2
+	name: barley field 
+	textureName: potfield
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+};{
+	id: 3
+	name: cassava field 
+	textureName: potfield
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+};{
+	id: 4
+	name: glasswort field 
+	textureName: glassfield
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+};{
+	id: 5
+	name: hemp field 
+	textureName: potfield
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+};{
+	id: 6
+	name: hop field 
+	textureName: potfield
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+};{
+	id: 7
+	name: linen field 
+	textureName: potfield
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+};{
+	id: 8
+	name: potato field 
+	textureName: potfield
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+};{
+	id: 9
+	name: rice field 
+	textureName: ricfield
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+};{
+	id: 10
+	name: salt marsh 
+	textureName: smarsh
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+};{
+	id: 11
+	name: sugar cane
+	textureName: potfield
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+};{
+	id: 12
+	name: vegetable garden
+	distanceBetweenSame: 2
+	textureName: vgarden
+	addsStorage: 15
+	canBeBuiltIn: [ 0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 13
+	name: wheat field
+	textureName: potfield
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+};
+//animal breeding
+{
+	id: 14
+	name: Small cowshed
+	textureName: scowshed
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+	addsPopulation: 15
+	addsStorage: 100
+};{
+	id: 15
+	name: Medium cowshed
+	textureName: mcowshed
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 1, 15, 16, 17, 18, 19 ]
+	addsPopulation: 5
+	addsStorage: 200
+};{
+	id: 16
+	name: Small farm
+	textureName: sfarm
+	distanceBetweenSame: 4
+	addsPopulation: 25
+	addsStorage: 50
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+};{
+	id: 17
+	name: Medium farm
+	textureName: mfarm
+	distanceBetweenSame: 4
+	addsPopulation: 50
+	addsStorage: 75
+	canBeBuiltIn: [ 1, 15, 16, 17, 18, 19 ]
+};{
+	id: 18
+	name: Large farm
+	textureName: lfarm
+	distanceBetweenSame: 4
+	addsPopulation: 60
+	addsStorage: 150
+	canBeBuiltIn: [ 1, 15, 16, 17, 18, 19 ]
+};{
+	id: 19
+	name: Hive
+	textureName: hive
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 20
+	name: Hunter shelter
+	textureName: huntershelter
+	distanceBetweenSame: 16
+	canBeBuiltIn: [ 0, 1 ]
+};{
+	id: 21
+	name: Small pigsty
+	textureName: spigsty
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+	addsPopulation: 10
+	addsStorage: 75
+};{
+	id: 22
+	name: Medium pigsty
+	textureName: mpigsty
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 1, 15, 16, 17, 18, 19 ]
+	addsPopulation: 5
+	addsStorage: 150
+};{
+	id: 23
+	name: Sheepfold
+	textureName: sheepfld
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsPopulation: 5
+	addsStorage: 30	
+};{
+	id: 24
+	name: Slaughter house
+	textureName: slaught
+	distanceBetweenSame: 8
+	addsStorage: 75
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 25
+	name: Small stable
+	textureName: sstable
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]	
+	addsPopulation: 15
+	addsStorage: 75
+};{
+	id: 26
+	name: Medium stable
+	textureName: mstable
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 1, 15, 16, 17, 18, 19 ]
+	addsPopulation: 6
+	addsStorage: 150	
+};{
+	id: 27
+	name: Trappers cabin
+	textureName: trapperscabin
+	distanceBetweenSame: 16
+	canBeBuiltIn: [ 0, 1 ]
+	addsPopulation: 5
+};
+//entertainments
+{
+	id: 28
+	name: Arena
+	textureName: arena
+	canBeBuiltIn: [ 20, 21, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+};{
+	id: 29
+	name: small theatre
+	textureName: stheatre
+	distanceBetweenSame: 8
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsStorage: 30
+};{
+	id: 30
+	name: theatre
+	textureName: rtheatre
+	distanceBetweenSame: 8
+	canBeBuiltIn: [ 2, 3, 4, 5, 20, 21, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+	addsStorage: 30
+};
+//fortifications
+{
+	id: 31
+	name: eastern wooden gate
+	textureName: ewgate
+	distanceBetweenSame: 2
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 10
+	removesStorage: 10
+};{
+	id: 32
+	name: eastern stone gate
+	textureName: esgate
+	distanceBetweenSame: 2
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 35
+	removesStorage: 25
+};{
+	id: 33
+	name: northeast wooden gate
+	textureName: newgate
+	distanceBetweenSame: 2
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 10
+	removesStorage: 10
+};{
+	id: 34
+	name: northeast stone gate
+	textureName: nesgate
+	distanceBetweenSame: 2
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 35
+	removesStorage: 25
+};{
+	id: 35
+	name: northern wooden gate
+	textureName: nwgate
+	distanceBetweenSame: 2
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 10
+	removesStorage: 10
+};{
+	id: 36
+	name: northern stone gate
+	textureName: nsgate
+	distanceBetweenSame: 2
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 35
+	removesStorage: 25
+};{
+	id: 37
+	name: northwestern wooden gate
+	textureName: nwwgate
+	distanceBetweenSame: 2
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 10
+	removesStorage: 10
+};{
+	id: 38
+	name: northwestern stone gate
+	textureName: nwsgate
+	distanceBetweenSame: 2
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 35
+	removesStorage: 25
+};{
+	id: 39
+	name: southeastern wooden gate
+	textureName: sewgate
+	distanceBetweenSame: 2
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 10
+	removesStorage: 10
+};{
+	id: 40
+	name: southeastern stone gate
+	textureName: sesgate
+	distanceBetweenSame: 2
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 35
+	removesStorage: 25
+};{
+	id: 41
+	name: southern wooden gate
+	textureName: swgate
+	distanceBetweenSame: 2
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 10
+	removesStorage: 10
+};{
+	id: 42
+	name: southern stone gate
+	textureName: ssgate
+	distanceBetweenSame: 2
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 35
+	removesStorage: 25
+};{
+	id: 43
+	name: southwestern wooden gate
+	textureName: swwgate
+	distanceBetweenSame: 2
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 10
+	removesStorage: 10
+};{
+	id: 44
+	name: southwestern stone gate
+	textureName: swsgate
+	distanceBetweenSame: 2
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 35
+	removesStorage: 25
+};{
+	id: 45
+	name: western wooden gate
+	textureName: wwgate
+	distanceBetweenSame: 2
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 10
+	removesStorage: 10
+};{
+	id: 46
+	name: western stone gate
+	textureName: wsgate
+	distanceBetweenSame: 2
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 35
+	removesStorage: 25
+};{
+	id: 47
+	name: eastern palisade
+	textureName: ewwall
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 50
+	removesStorage: 50
+};{
+	id: 48
+	name: eastern wall
+	textureName: eswall
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 50
+	removesStorage: 50
+};{
+	id: 49
+	name: northern palisade
+	textureName: nwwall
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 50
+	removesStorage: 50
+};{
+	id: 50
+	name: northern wall
+	textureName: nswall
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 50
+	removesStorage: 50
+};{
+	id: 51
+	name: southern palisade
+	textureName: swwall
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 50
+	removesStorage: 50
+};{
+	id: 52
+	name: southern wall
+	textureName: sswall
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 50
+	removesStorage: 50
+};{
+	id: 53
+	name: western palisade
+	textureName: wwwall
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 50
+	removesStorage: 50
+};{
+	id: 54
+	name: western wall
+	textureName: wswall
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 50
+	removesStorage: 50
+};{
+	id: 55
+	name: Keep
+	textureName: keep
+	distanceBetweenSame: 32
+	needsAdjacent: [ 16, 17, 18, 19 ]
+	canBeBuiltIn: [ 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 10
+	addsStorage: 75
+};{
+	id: 56
+	name: wooden tower
+	textureName: wtower
+	distanceBetweenSame: 1
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 10
+	removesStorage: 10
+};{
+	id: 57
+	name: stone tower
+	textureName: stower
+	distanceBetweenSame: 1
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 35
+	removesStorage: 25
+};{
+	id: 58
+	name: covered tower
+	textureName: ctower
+	distanceBetweenSame: 1
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	removesPopulation: 30
+	removesStorage: 20
+};
+//fruit trees
+{
+    id: 59
+    name: Almond trees
+    textureName: almtrees
+    canBeBuiltIn: [ 0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+    id: 60
+    name: Apple trees
+    textureName: almtrees
+    canBeBuiltIn: [ 0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+    id: 61
+    name: Apricot trees
+    textureName: almtrees
+    canBeBuiltIn: [ 0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+    id: 62
+    name: Banana trees
+    textureName: bananatrees
+    canBeBuiltIn: [ 0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+    id: 63
+    name: Cherry trees
+    textureName: almtrees
+    canBeBuiltIn: [ 0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+    id: 64
+    name: Coffee trees
+    textureName: coffeetrees
+    canBeBuiltIn: [ 0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+    id: 65
+    name: Hazel trees
+    textureName: hazeltrees
+    canBeBuiltIn: [ 0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+    id: 66
+    name: Olive trees
+    textureName: olivetrees
+    canBeBuiltIn: [ 0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+    id: 67
+    name: Pear trees
+    textureName: peartrees
+    canBeBuiltIn: [ 0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+    id: 68
+    name: Plum trees
+    textureName: plumtrees
+    canBeBuiltIn: [ 0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+    id: 69
+    name: Tea trees
+    textureName: teatrees
+    canBeBuiltIn: [ 0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+    id: 70
+    name: Vine
+    textureName: vinetrees
+    canBeBuiltIn: [ 0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+    id: 71
+    name: Walnut trees
+    textureName: walnuttrees
+    canBeBuiltIn: [ 0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};
+//houses and dwellings
+{
+	id: 72
+	name: lvl 4 Crossing
+	textureName: 4crossing
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 100
+	addsStorage: 40
+};{
+	id: 73
+	name: lvl 5 Crossing
+	textureName: 5crossing
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 125
+	addsStorage: 50
+};{
+	id: 74
+	name: lvl 7 Crossing
+	textureName: 7crossing
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+	addsPopulation: 150
+	addsStorage: 60
+};{
+	id: 75
+	name: lvl 8 Crossing
+	textureName: 8crossing
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+	addsPopulation: 200
+	addsStorage: 80
+};{
+	id: 76
+	name: lvl 4 Diagonal crossing
+	textureName: 4dcrossing
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 100
+	addsStorage: 40
+};{
+	id: 77
+	name: lvl 5 Diagonal crossing
+	textureName: 5dcrossing
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 125
+	addsStorage: 50
+};{
+	id: 78
+	name: lvl 7 Diagonal crossing
+	textureName: 7dcrossing
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+	addsPopulation: 150
+	addsStorage: 60
+};{
+	id: 79
+	name: lvl 8 Diagonal crossing
+	textureName: 8dcrossing
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+	addsPopulation: 200
+	addsStorage: 80
+};{
+	id: 80
+	name: lvl 5 East-West street
+	textureName: 5e-wstreet
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 125
+	addsStorage: 50
+};{
+	id: 81
+	name: lvl 7 East-West street
+	textureName: 7e-wstreet
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 175
+	addsStorage: 70
+};{
+	id: 82
+	name: lvl 9 East-West street
+	textureName: 9e-wstreet
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+	addsPopulation: 225
+	addsStorage: 90
+};{
+	id: 83
+	name: lvl 10 East-West street
+	textureName: 10e-wstreet
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+	addsPopulation: 250
+	addsStorage: 100
+};{
+	id: 84
+	name: lvl 5 Northwest-Southeast street
+	textureName: 5nw-sestreet
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 125
+	addsStorage: 50
+};{
+	id: 85
+	name: lvl 7 Northwest-Southeast street
+	textureName: 7nw-sestreet
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 175
+	addsStorage: 70
+};{
+	id: 86
+	name: lvl 9 Northwest-Southeast street
+	textureName: 9nw-sestreet
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+	addsPopulation: 225
+	addsStorage: 90
+};{
+	id: 87
+	name: lvl 10 Northwest-Southeast street
+	textureName: 10nw-sestreet
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+	addsPopulation: 250
+	addsStorage: 100
+};{
+	id: 88
+	name: lvl 5 Northeast-Southwest street
+	textureName: 5ne-swstreet
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 125
+	addsStorage: 50
+};{
+	id: 89
+	name: lvl 7 Northwest-Southeast street
+	textureName: 7ne-swstreet
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 175
+	addsStorage: 70
+};{
+	id: 90
+	name: lvl 9 Northwest-Southeast street
+	textureName: 9ne-swstreet
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+	addsPopulation: 225
+	addsStorage: 90
+};{
+	id: 91
+	name: lvl 10 Northwest-Southeast street
+	textureName: 10ne-swstreet
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+	addsPopulation: 250
+	addsStorage: 100
+};{
+	id: 92
+	name: lvl 5 North-South street
+	textureName: 5n-sstreet
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 125
+	addsStorage: 50
+};{
+	id: 93
+	name: lvl 7 North-South street
+	textureName: 7n-sstreet
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 175
+	addsStorage: 70
+};{
+	id: 94
+	name: lvl 9 North-South street
+	textureName: 9n-sstreet
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+	addsPopulation: 225
+	addsStorage: 90
+};{
+	id: 95
+	name: lvl 10 North-South street
+	textureName: 10n-sstreet
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+	addsPopulation: 250
+	addsStorage: 100
+};{
+	id: 96
+	name: lvl 4 Houses
+	textureName: 4houses
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 100
+	addsStorage: 40
+};{
+	id: 97
+	name: lvl 5 Houses
+	textureName: 5houses
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 125
+	addsStorage: 50
+};{
+	id: 98
+	name: lvl 7 Houses
+	textureName: 7houses
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+	addsPopulation: 150
+	addsStorage: 60
+};{
+	id: 99
+	name: lvl 8 Houses
+	textureName: 8houses
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+	addsPopulation: 200
+	addsStorage: 80
+};{
+	id: 100
+	name: Small mansion
+	textureName: smansion
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 50
+	addsStorage: 75
+};{
+	id: 101
+	name: Large mansion
+	textureName: lmansion
+	needsAdjacent: [  ]
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+	addsPopulation: 100
+	addsStorage: 150
+};{
+	id: 102
+	name: Two-floor covered rectory
+	textureName: rectory
+    distanceBetweenSame: 16
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+	addsPopulation: 50
+	addsStorage: 75
+};
+//industrial buildings
+{
+    id: 103
+    name:Low blast Furnace
+    textureName:bfurnace_0
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [0,1,2]
+};{
+    id: 104
+    name:Small high blast Furnace
+    textureName:bfurnace_1
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [0,1,2]
+    addsStorage: 10
+};{
+    id: 105
+    name:Double high blast Furnace
+    textureName:bfurnace_2
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [0,1,2]
+    addsStorage: 120
+};{
+    id: 106
+    name:Large high blast Furnace
+    textureName:bfurnace_3
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [1,2]
+    addsStorage: 230
+};{
+    id: 107
+    name:Large high blast Furnace
+    textureName:bfurnace_4
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [2]
+    addsPopulation:10
+    addsStorage: 250
+};
+//Brickyard
+{
+    id: 108
+    name:Rudimentary tilery
+    textureName:byard_0
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [0,1,2]
+};{
+    id: 109
+    name:One-kiln tilery
+    textureName:byard_1
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [0,1,2]
+    addsStorage: 100
+};{
+    id: 110
+    name:Two-kiln tilery
+    textureName:byard_2
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [1,2]
+    addsStorage: 100
+};{
+    id: 111
+    name:Three-kiln tilery
+    textureName:byard_2
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [2]
+    addsStorage: 150
+    addsPopulation: 10
+};
+//Charcoal furnace
+{
+    id: 112
+    name:Charcoal furnace
+    textureName:cfurnace
+    distanceBetweenSame: 4
+    needsAdjacent: [ ]
+    canBeBuiltIn: [0,1,15,16,17,18,19]
+    addsStorage: 10
+    addsPopulation: 5
+};
+//Distillery
+{
+    id: 113
+    name:Small distillery
+    textureName:distillery_0
+    distanceBetweenSame: 4
+    needsAdjacent: [ ]
+    canBeBuiltIn: [1,2,3,4,5]
+    addsStorage: 25
+};
+//Glass Factory
+{
+    id: 114
+    name:Small glass factory
+    textureName:glassfactory_0
+    needsAdjacent: [ ]
+    canBeBuiltIn: [2,3,4,5]
+    addsStorage: 20
+};
+//Lime Kiln
+{
+    id: 115
+    name:Rudimentary lime kiln
+    textureName:limekiln_0
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [0,1,2,15,16,17,18,19,20,21]
+};{
+    id: 116
+    name:Small lime kiln
+    textureName:limekiln_1
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [0,1,2,15,16,17,18,19,20,21]
+    addsStorage: 10
+};{
+    id: 117
+    name:Double lime kiln
+    textureName:limekiln_2
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [0,1,2,15,16,17,18,19,20,21]
+    addsStorage: 100
+};{
+    id: 118
+    name:Large lime kiln
+    textureName:limekiln_3
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [1,2,15,16,17,18,19,20,21]
+    addsStorage: 200
+};{
+    id: 119
+    name:Huge lime kiln
+    textureName:limekiln_4
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [1,20,21]
+    addsStorage: 200
+    addsPopulation: 5
+};
+//Refinery
+{
+    id: 120
+    name:Small refinery
+    textureName:refinery_0
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [0,1]
+    addsStorage: 25
+};{
+    id: 121
+    name:Medium refinery
+    textureName:refinery_1
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [1]
+    addsStorage: 110
+};
+//Tannery
+{
+    id: 122
+    name:Small tannery
+    textureName:tannery_0
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [0,1]
+    addsPopulation: 5
+};
+//Tar kiln
+{
+    id: 123
+    name:Small tar kiln
+    textureName:tarkiln_0
+    distanceBetweenSame: 8
+    needsAdjacent: [ ]
+    canBeBuiltIn: [0,1,15,16,17,18,19]
+    addsStorage: 25
+};
+//Water mill
+{
+    id: 124
+    name:Small watermill
+    textureName:watermill_0
+    distanceBetweenSame: 4
+    needsAdjacent: [ ]
+    canBeBuiltIn: [0,1,2,3,4,5,15,16,17,18,19]
+    addsStorage: 50
+    addsPopulation: 12
+};
+//Windmill 
+{
+    id: 125
+    name:Windmill without mechanism
+    textureName:windmill_0
+    distanceBetweenSame: 4
+    needsAdjacent: [ ]
+    canBeBuiltIn: [0,1,15,16,17,18,19]
+    addsStorage: 50
+    addsPopulation: 12
+};{
+    id: 126
+    name:Windmill
+    textureName:windmill_1
+    distanceBetweenSame: 4
+    needsAdjacent: [ ]
+    canBeBuiltIn: [0,1,15,16,17,18,19]
+    addsStorage: 50
+    addsPopulation: 6
+};
+//Manufacturing Workshops
+{
+    id: 127
+    name: Small brewery
+    textureName: sbrewery
+    distanceBetweenSame: 8
+    canBeBuiltIn: [ 0, 1, 2, 3, 4, 5 ]
+    addsStorage: 25
+};{
+    id: 128
+    name: Medium brewery
+    textureName: mbrewery
+    distanceBetweenSame: 8
+    canBeBuiltIn: [ 0, 1, 2, 3, 4, 5 ]
+    addsStorage: 110
+};{
+    id: 129
+    name: Small forge
+    textureName: sforge
+    distanceBetweenSame: 2
+    canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+    addsPopulation: 40
+    addsStorage: 100
+};{
+    id: 130
+    name: Medium forge
+    textureName: mforge
+    distanceBetweenSame: 2
+    canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+    addsPopulation: 45
+    addsStorage: 120
+};{
+    id: 131
+    name: Large forge
+    textureName: lforge
+    distanceBetweenSame: 2
+    canBeBuiltIn: [ 2, 3, 4, 5 ]
+    addsPopulation: 50
+    addsStorage: 150
+};{
+    id: 132
+    name: Small winery
+    textureName: swinery
+    distanceBetweenSame: 8
+    canBeBuiltIn: [ 0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+    addsStorage: 25
+};{
+    id: 133
+    name: Medium winery
+    textureName: mwinery
+    distanceBetweenSame: 8
+    canBeBuiltIn: [ 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+    addsStorage: 110
+};{
+    id: 134
+    name: Small workshop
+    textureName: sworkshop
+    distanceBetweenSame: 2
+    canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+    addsPopulation: 5
+    addsStorage: 50
+};{
+    id: 135
+    name: Medium workshop
+    textureName: mworkshop
+    distanceBetweenSame: 2
+    canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+    addsPopulation: 30
+    addsStorage: 100
+};{
+    id: 136
+    name: Large workshop
+    textureName: lworkshop
+    distanceBetweenSame: 2
+    canBeBuiltIn: [ 2, 3, 4, 5 ]
+    addsPopulation: 40
+    addsStorage: 150
+};
+//military buildings
+{
+	id: 137
+	name: small barracks
+	textureName: sbarracks
+	distanceBetweenSame: 8
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 20
+	addsStorage: 20
+};{
+	id: 138
+	name: medium barracks
+	textureName: mbarracks
+	distanceBetweenSame: 8
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 40
+	addsStorage: 40
+};{
+	id: 139
+	name: large barracks
+	textureName: lbarracks
+	distanceBetweenSame: 8
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 60
+	addsStorage: 60
+};{
+	id: 140
+	name: garrison
+	textureName: garrison
+	distanceBetweenSame: 8
+	canBeBuiltIn: [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+	addsPopulation: 80
+	addsStorage: 80
+};{
+	id: 141
+	name: wooden watchtower
+	textureName: wwatchtower
+	distanceBetweenSame: 16
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 5
+	addsStorage: 10
+};{
+	id: 142
+	name: stone watchtower
+	textureName: swatchtower
+	distanceBetweenSame: 16
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 5
+	addsStorage: 10
+};{
+	id: 143
+	name: covered watchtower
+	textureName: cwatchtower
+	distanceBetweenSame: 16
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 5
+	addsStorage: 10
+};{
+	id: 144
+	name: one-level wooden castle
+	textureName: lvl1woodencastle
+	distanceBetweenSame: 16
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+	addsPopulation: 15
+	addsStorage: 50
+};{
+	id: 145
+	name: three-level wooden castle
+	textureName: lvl3woodencastle
+	distanceBetweenSame: 16
+	canBeBuiltIn: [ 15, 16, 17, 18, 19 ]
+	addsPopulation: 45
+	addsStorage: 100
+};
+//mines and quarries
+{
+	id: 146
+	name: basalt quarry
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 147
+	name: clay pit
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 148
+	name: coal mine
+	textureName: coalmine
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 149
+	name: diamond mine
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 150
+	name: emerald mine
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 151
+	name: gold mine
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 152
+	name: granite quarry
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 153
+	name: iron mine
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 154
+	name: lead mine
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 155
+	name: limestone quarry
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 156
+	name: marble quarry
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 157
+	name: peat bog
+	textureName: peat
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 158
+	name: ruby mine
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 159
+	name: salt mine
+	textureName: salt
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 160
+	name: sandstone quarry
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 161
+	name: sappire mine
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 162
+	name: silver mine
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 163
+	name: slate quarry
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 164
+	name: sulphur mine
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 165
+	name: tin mine
+	textureName: quarry
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 20
+};{
+	id: 166
+	name: well
+	textureName: well
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 167
+	name: small cistern
+	textureName: swell
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsStorage: 100
+};{
+	id: 168
+	name: medium cistern
+	textureName: mwell
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsStorage: 250
+};{
+	id: 169
+	name: large cistern
+	textureName: lwell
+	distanceBetweenSame: 4
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsStorage: 500
+};
+//monastery
+{
+	id: 170
+	name: covered abbey church
+	textureName: abbeychurch
+	distanceBetweenSame: 16
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 171
+	name: covered abbey nave
+	textureName: abbeynave
+	distanceBetweenSame: 16
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 172
+	name: chapter house
+	textureName: chhouse
+	distanceBetweenSame: 16
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 40
+	addsStorage: 75
+};{
+	id: 173
+	name: cloister
+	textureName: cloister
+	distanceBetweenSame: 16
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};
+//places of worship
+{
+	id: 174
+	name: covered apse
+	textureName: capse
+	distanceBetweenSame: 16
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 175
+	name: gate with bell towers
+	textureName: gwbtowers
+	distanceBetweenSame: 16
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 176
+	name: transept with dome
+	textureName: twdome
+	distanceBetweenSame: 16
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 177
+	name: big cemetery
+	textureName: cemetery
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 178
+	name: chapel
+	textureName: chapel
+	canBeBuiltIn: [ 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 179
+	name: temple
+	textureName: stemple
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 180
+	name: medium temple
+	textureName: mtemple
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 181
+	name: great temple
+	textureName: gtemple
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};
+//port
+{
+	id: 182
+	name: fishing boat
+	textureName: fboat
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+};{
+	id: 183
+	name: full lighthouse
+	textureName: lighthouse
+	canBeBuiltIn: [ 2, 3, 4, 5 ]
+	addsPopulation: 1
+	addsStorage: 25
+};{
+	id: 184
+	name: trading ships
+	textureName: tships
+	canBeBuiltIn: [ 2, 3, 4, 5 ]
+};
+//public buildings
+{
+	id: 185
+	name: covered city hall
+	textureName: ccityhall
+	canBeBuiltIn: [ 2, 3, 4, 5 ]
+};{
+	id: 186
+	name: great hall
+	textureName: greathall
+	canBeBuiltIn: [ 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 50
+	addsStorage: 100
+};{
+	id: 187
+	name: great gallery
+	textureName: greatgallery
+	canBeBuiltIn: [ 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+	addsPopulation: 50
+	addsStorage: 100
+};{
+	id: 188
+	name: covered guild house
+	textureName: guildhouse
+	canBeBuiltIn: [ 2, 3, 4, 5 ]
+	addsPopulation: 50
+	addsStorage: 100
+};{
+	id: 189
+	name: market square
+	textureName: msquare1
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 190
+	name: market square
+	textureName: msquare2
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 191
+	name: square
+	textureName: square1
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 192
+	name: paved square
+	textureName: square2
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 193
+	name: square with fountain
+	textureName: square3
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 194
+	name: statue
+	textureName: statue
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+};
+//resource storage
+{
+	id: 195
+	name: small barn
+	textureName: sbarn
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+	addsStorage: 150
+};{
+	id: 196
+	name: medium barn
+	textureName: mbarn
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+	addsStorage: 250
+};{
+	id: 197
+	name: large barn
+	textureName: lbarn
+	canBeBuiltIn: [ 0, 1, 15, 16, 17, 18, 19 ]
+	addsStorage: 500
+};{
+	id: 198
+	name: barn with silo
+	textureName: slbarn
+	canBeBuiltIn: [ 0, 1 ]
+	addsStorage: 650
+};{
+	id: 199
+	name: small warehouse
+	textureName: sware
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsStorage: 500
+};{
+	id: 200
+	name: medium warehouse
+	textureName: mware
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsStorage: 2500
+};{
+	id: 201
+	name: large warehouse
+	textureName: lware
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsStorage: 4000
+};
+//seigneurial residence
+{
+	id: 202
+	name: conservatory
+	textureName: conserv
+	canBeBuiltIn: [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+};{
+	id: 203
+	name: full covered east-west wing
+	textureName: fcewwing
+	canBeBuiltIn: [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+	addsPopulation: 25
+	addsStorage: 50
+};{
+	id: 204
+	name: full covered north-south wing
+	textureName: fcnswing
+	canBeBuiltIn: [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+	addsPopulation: 25
+	addsStorage: 50
+};{
+	id: 205
+	name: garden
+	textureName: garden
+	canBeBuiltIn: [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+};{
+	id: 206
+	name: wooded garden
+	textureName: wgarden
+	canBeBuiltIn: [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+};{
+	id: 207
+	name: garden with fountain
+	textureName: fgarden
+	canBeBuiltIn: [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+};{
+	id: 208
+	name: wooden garden with fountain
+	textureName: wfgarden
+	canBeBuiltIn: [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+};{
+	id: 209
+	name: small lord's lodging
+	textureName: slodging
+	canBeBuiltIn: [ 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 40
+	addsStorage: 100
+};{
+	id: 210
+	name: large lord's lodging
+	textureName: llodging
+	canBeBuiltIn: [ 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 70
+	addsStorage: 200
+};{
+	id: 211
+	name: small mansion
+	textureName: smansion
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 40
+	addsStorage: 75
+};{
+	id: 212
+	name: large mansion
+	textureName: lmansion
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+	addsPopulation: 70
+	addsStorage: 150
+};{
+	id: 213
+	name: covered palace entrance
+	textureName: cpalaceentrance
+	canBeBuiltIn: [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+};{
+	id: 214
+	name: three-flor covered pavilion
+	textureName: pavilion
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+	addsPopulation: 50
+	addsStorage: 50
+};{
+	id: 215
+	name: pond
+	textureName: pond
+	canBeBuiltIn: [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+};{
+	id: 216
+	name: pond with fountain
+	textureName: fpond
+	canBeBuiltIn: [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+};
+//Teaching facilities
+{
+	id: 217
+	name: small school
+	textureName: sschool
+	canBeBuiltIn: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 10
+	addsStorage: 10
+};{
+	id: 218
+	name: medium school
+	textureName: mschool
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+	addsPopulation: 20
+	addsStorage: 20
+};{
+	id: 219
+	name: high school
+	textureName: lschool
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 21 ]
+	addsPopulation: 30
+	addsStorage: 30
+};
+//urbanisation
+{
+	id: 220
+	name: belfry
+	textureName: belfry
+	canBeBuiltIn: [ 2, 3, 4, 5 ]
+	addsStorage: 25
+};{
+	id: 221
+	name: east-west avenue
+	textureName: e-wavenue
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 222
+	name: northeast-southwest avenue
+	textureName: ne-swavenue
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 223
+	name: northeast-southwest avenue
+	textureName: ne-swavenue
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 224
+	name: north-south avenue
+	textureName: n-savenue
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 225
+	name: northwest-southeast avenue
+	textureName: nw-seavenue
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 226
+	name: east-west wooden bridge
+	textureName: e-wwbridge
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 227
+	name: east-west stone bridge
+	textureName: e-wsbridge
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 228
+	name: northeast-southwest wooden bridge
+	textureName: ne-swwbridge
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 229
+	name: northeast-southwest stone bridge
+	textureName: ne-swsbridge
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 230
+	name: north-south wooden bridge
+	textureName: n-swbridge
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 231
+	name: north-south stone bridge
+	textureName: n-ssbridge
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 232
+	name: northwest-southeast wooden bridge
+	textureName: nw-sewbridge
+	canBeBuiltIn: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};{
+	id: 233
+	name: northwest-southeast stone bridge
+	textureName: nw-sesbridge
+	canBeBuiltIn: [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+};

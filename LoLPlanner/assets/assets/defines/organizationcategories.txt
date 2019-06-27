@@ -1,0 +1,16 @@
+{
+	name: Rurality
+	organizations: [ 0, 1 ]
+};{
+	name: Urbanity
+	organizations: [ 2, 3, 4, 5 ]
+};{
+	name: High nobility
+	organizations: [ 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+};{
+	name: Low Nobility
+	organizations: [ 15, 16, 17, 18, 19 ]
+};{
+	name: Medium Nobility
+	organizations: [ 20, 21 ]
+}

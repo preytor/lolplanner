@@ -1,0 +1,120 @@
+//Rurality
+{
+	id: 0
+	name: Domain
+	maxPopulation: 5000
+	maxStockpile: 50000
+};{
+	id: 1
+	name: Village
+	maxPopulation: 10000
+	maxStockpile: 50000
+};
+//Urbanity
+{
+	id: 2
+	name: Town
+	maxPopulation: 30000
+	maxStockpile: 50000
+};{
+	id: 3
+	name: City
+	maxPopulation: 50000
+	maxStockpile: 50000
+};{
+	id: 4
+	name: City-State
+	maxPopulation: 50000
+	maxStockpile: 50000
+};{
+	id: 5
+	name: Federation
+	maxPopulation: 50000
+	maxStockpile: 50000
+};
+//High nobility
+{
+	id: 6
+	name: Duchy
+	maxPopulation: 40000
+	maxStockpile: 30000
+};{
+	id: 7
+	name: Principality
+	maxPopulation: 30000
+	maxStockpile: 30000
+};{
+	id: 8
+	name: Vicekingdom
+	maxPopulation: 40000
+	maxStockpile: 30000
+};{
+	id: 9
+	name: Grand Duchy
+	maxPopulation: 45000
+	maxStockpile: 30000
+};{
+	id: 10
+	name: Grand Principality
+	maxPopulation: 40000
+	maxStockpile: 30000
+};{
+	id: 11
+	name: Archduchy
+	maxPopulation: 45000
+	maxStockpile: 30000
+};{
+	id: 12
+	name: Kingdom
+	maxPopulation: 50000
+	maxStockpile: 30000
+};{
+	id: 13
+	name: Tsardom
+	maxPopulation: 50000
+	maxStockpile: 30000
+};{
+	id: 14
+	name: Empire
+	maxPopulation: 50000
+	maxStockpile: 30000
+};
+//Low Nobility
+{
+	id: 15
+	name: Lordship
+	maxPopulation: 20000
+	maxStockpile: 40000
+};{
+	id: 16
+	name: Commandery
+	maxPopulation: 20000
+	maxStockpile: 40000
+};{
+	id: 17
+	name: Barony
+	maxPopulation: 25000
+	maxStockpile: 40000
+};{
+	id: 18
+	name: Vidamy
+	maxPopulation: 25000
+	maxStockpile: 40000
+};{
+	id: 19
+	name: Viscounty
+	maxPopulation: 25000
+	maxStockpile: 40000
+};
+//medium nobility
+{
+	id: 20
+	name: County
+	maxPopulation: 30000
+	maxStockpile: 30000
+};{
+	id: 21
+	name: Marquisate
+	maxPopulation: 30000
+	maxStockpile: 30000
+}

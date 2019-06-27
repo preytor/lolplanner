@@ -1,0 +1,97 @@
+
+lolplanner.png
+size: 256,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+background2
+  rotate: false
+  xy: 2, 62
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+background3
+  rotate: false
+  xy: 68, 62
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+backgroundmenu
+  rotate: false
+  xy: 134, 62
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+checked
+  rotate: false
+  xy: 200, 36
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+discordicon
+  rotate: false
+  xy: 200, 78
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+griddisplaychunks
+  rotate: false
+  xy: 214, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+griddisplaytiles
+  rotate: false
+  xy: 44, 28
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+less
+  rotate: false
+  xy: 180, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+more
+  rotate: false
+  xy: 112, 28
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+pop
+  rotate: false
+  xy: 78, 28
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+stock
+  rotate: false
+  xy: 146, 28
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+unchecked
+  rotate: false
+  xy: 2, 20
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+blank
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
