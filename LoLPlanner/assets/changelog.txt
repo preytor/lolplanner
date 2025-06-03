@@ -1,0 +1,27 @@
+v0.0.1
+initial beta release
+
+v0.2
+added support for wasd movement
+
+v0.3
+added ability to choose the organization type you want to design
+added a display of min/max population of a domain and min/max storage of a domain
+when you add / remove buildings it updates the population and storage according to the stats
+you can only select the buildings your organization can build
+added all the buildings inside the Industrial building category (thanks magma)
+
+v0.4
+fixed a crash when you right clicked outside the bounds of the map
+fixed the bug when you clicked to select a new building and it painted it behind the hud
+added new values for the fortifications that removes maximum storage
+now when you place buildings you place them one by one unless you press shift
+added buttons to display the grid of the tiles or the chunks
+added icon to the program
+
+v0.5
+you can now import chunk images into the program, so you can plan your domain above the terrain you actually have
+you can now save and load the map (it doesn't save the chunk images yet)
+you can now export the map as an image, so you can share your designs with your friends
+added a new config file in "my documents/lolplanner" folder so you can change the size of the window
+added all the current buildings in the game (thanks to McMagma#4972 and ТR#3532 for the help)
